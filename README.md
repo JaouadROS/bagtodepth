@@ -19,7 +19,7 @@ To use this package, clone the repository to your disc and build it:
     $ catkin_make
     $ source devel/setup.bash
 
-run bagtodepth node (newdepth is bagfile's name)
+Run bagtodepth node (newdepth is bagfile's name)
 
     $ rosrun bag_to_depth bagtodepth newdepth
 
@@ -29,4 +29,4 @@ run bagtodepth node (newdepth is bagfile's name)
       Ros message / Frame number: 
 ```
 
-Knowing the bagsize you can choose one message to extract to depth ```cv::Mat``` image. The depth information will be stored in ```depthclean``` for future processing, and ```depthvisualization``` is provided for visualization purpose
+Knowing the bagsize you can choose one message to extract to depth ```cv::Mat``` image. The depth information will be stored in ```depthclean``` for future processing, and ```depthvisualization``` is provided for visualization purpose.
