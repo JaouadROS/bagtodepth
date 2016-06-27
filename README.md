@@ -20,6 +20,7 @@ To use this package, clone the repository to your disc and build it:
     $ source devel/setup.bash
 
 run bagtodepth node (newdepth is bagfile's name)
+
     $ rosrun bag_to_depth bagtodepth newdepth
 
 ```sh
