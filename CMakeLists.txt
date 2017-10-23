@@ -12,9 +12,10 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   cv_bridge
   image_transport
-  OpenCV
   rosbag
 )
+
+find_package( OpenCV REQUIRED )
 
 include_directories(
 	include
