@@ -19,8 +19,9 @@
 #include <ros/package.h>
 
 // OpenCv
-#include "cv.h"
-#include "highgui.h"
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv/cv.hpp>
 
 // Bag files
 #include <rosbag/bag.h>
